@@ -1,0 +1,132 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Dropdown
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@dropdown-z-index:                              (@global-z-index + 20);
+@dropdown-background:                           @global-background;
+@dropdown-color:                                @global-color;
+@dropdown-margin-top:                           10px;
+@dropdown-padding:                              25px;
+@dropdown-width:                                250px;
+@dropdown-divider-border:                       @global-border;
+@dropdown-small-padding:                        15px;
+
+@dropdown-navbar-margin:                        10px;
+@dropdown-navbar-background:                    @global-background;
+@dropdown-navbar-color:                         @global-color;
+@dropdown-animation:							uk-slide-top-fixed;
+
+@dropdown-box-shadow-size: 						@global-box-shadow-size;
+@dropdown-box-shadow: 							@global-box-shadow;
+@dropdown-navbar-animation:						@dropdown-animation;
+
+
+
+// Component
+// ========================================================================
+
+.hook-dropdown() {
+	box-shadow: inset 0 0 0 1px @global-dark-shadow;
+}
+
+
+// Modifier: `uk-dropdown-navbar`
+// ========================================================================
+
+.hook-dropdown-navbar() {
+	padding: 0;
+
+	.uk-nav-navbar > li > a {
+		padding: 3px 18px;
+		font-size: @global-font-size;
+	}
+
+	.uk-nav-navbar ul a {
+		padding: 5px 18px;
+		font-size: @global-font-size;
+	}
+
+	.uk-nav-header {
+		padding: 5px @dropdown-small-padding;
+	}
+
+	.uk-nav-navbar > li.uk-active > a,
+	.uk-nav-navbar ul li.uk-active > a {
+		background-color: @theme-menuitem-hover-background;
+		color: @theme-menuitem-hover-color;
+	}
+
+}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-dropdown-misc() {
+
+	.uk-dropdown-navbar .uk-nav-navbar > li > a:hover,
+    .uk-dropdown-navbar .uk-nav-navbar > li > a:focus {
+        color: @theme-menuitem-hover-color;
+        background-color: @theme-menuitem-hover-background;
+    }
+
+	@media (min-width: @breakpoint-medium) {
+
+	    .tm-navbar .uk-dropdown:not(.uk-dropdown-stack) > .uk-dropdown-grid {
+	        	margin-left: 0;
+	        	margin-right: 0;
+
+	    	> [class*='uk-width-'] {
+	        	padding-left: 0;
+	        	padding-right: 0;
+
+	        	&:nth-child(n+2) {
+			    	box-shadow: inset 1px 0 0 @global-lighter-shadow;
+			    }
+	    	}
+		}
+	}
+
+	/* Nav in dropdown
+	 ========================================================================== */
+
+	.uk-dropdown .uk-nav { margin: 0; }
+
+	.tm-navbar {
+		.uk-dropdown {
+			display: block;
+			visibility: hidden;
+		}
+
+		.uk-dropdown .uk-nav { margin: 0 }
+		.uk-open > .uk-dropdown { visibility: visible; }
+		li.uk-parent > ul { border-bottom: 0; }
+
+		.uk-dropdown li.uk-parent > a:before {
+				font-family: @global-font-icon;
+				content: "\f105";
+				position: absolute;
+				right: 15px;
+				font-size: 18px;
+				color: @theme-menuitem-color;
+		}
+
+		.uk-dropdown li.uk-parent:hover > a:before {
+				color: @theme-menuitem-hover-color;
+		}
+
+	}
+
+	/* button dropdown */
+	.uk-button-dropdown .uk-dropdown .uk-nav {
+		margin: 0 15px 0 0;
+	}
+
+}

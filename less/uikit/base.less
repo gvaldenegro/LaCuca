@@ -1,0 +1,158 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Base
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@base-body-background:                          @global-background;
+@base-body-font-family:                         @global-font-family;
+@base-body-font-weight:                         @global-font-weight;
+@base-body-font-size:                           @global-font-size;
+@base-body-line-height:                         @global-line-height;
+@base-body-color:                               @global-color;
+
+@base-link-color:                               @global-link-color;
+@base-link-hover-color:                         @global-link-hover-color;
+
+@base-selection-background:                     fade(@global-primary-background, 50%);
+@base-selection-color:                          fade(@global-color, 50%);
+
+@base-margin-vertical:                          @global-margin;
+
+@base-heading-font-weight:                      @global-heading-font-weight;
+@base-heading-font-family:                      @global-heading-font-family;
+@base-heading-color:                            @global-heading-color;
+@base-heading-margin-top:                       @global-margin-large;
+@base-h1-font-size:                             42px;
+@base-h1-line-height:                           48px;
+@base-h2-font-size:                             32px;
+@base-h2-line-height:                           36px;
+@base-h3-font-size:                             24px;
+@base-h3-line-height:                           32px;
+@base-h4-font-size:                             18px;
+@base-h4-line-height:                           24px;
+@base-h5-font-size:                             16px;
+@base-h5-line-height:                           22px;
+@base-h6-font-size:                             14px;
+@base-h6-line-height:                           18px;
+
+
+@base-hr-border:                                @global-border;
+
+@base-blockquote-border:                        @global-light-background;
+@base-blockquote-font-size:                     @base-h4-line-height;
+@base-blockquote-line-height:                   @base-h1-line-height;
+
+@base-code-color:                               @global-primary-color;
+@base-code-font-size:                           @global-font-size;
+
+@base-pre-background:                           @global-background;
+@base-pre-color:                                @global-secondary-color;
+@base-pre-font-size:                            @global-font-size;
+@base-pre-line-height:                          round((@base-pre-font-size * 1.85)); // 26px
+@base-blockquote-small-color:                   @global-muted-color;
+
+@base-quote-font-family:                        @base-heading-font-family;
+
+// Body
+// ========================================================================
+
+.hook-base-body() {}
+
+
+// Code and preformatted text
+// ========================================================================
+
+.hook-base-code() {
+    i { font-style: normal; }
+}
+
+.hook-base-code-reset() {}
+
+.hook-base-pre() { 
+    padding: 20px;
+    border: 1px solid @global-dark-shadow;
+    white-space: pre-wrap;
+    word-break: break-word;
+    box-shadow: inset 4px 0 @global-dark-shadow;
+
+    i { font-style: normal; }
+}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-base-misc() {
+
+    blockquote {
+    	font-family: @base-heading-font-family;
+		font-style: normal;
+		border: 0 none;
+        padding-left: 0;
+        position: relative;
+        
+        > p {
+            line-height: @base-blockquote-line-height;
+            font-weight: @global-heading-font-weight;
+        
+            strong {
+                font-weight: normal;
+                color: @global-primary-color;
+            }
+        }
+        
+        small { color: @base-blockquote-small-color; }
+        
+        .author,
+        .jobtitle{
+            font-weight: normal;
+            line-height: round((@global-line-height*1.2));
+            display: block;
+        }
+
+        .author {
+        	font-size: @base-h3-font-size;
+            margin-top: 15px; 
+        }
+
+        .jobtitle {
+            font-size: @base-h4-font-size;
+        }
+    }
+
+    .tm-quote {
+        font-family: @base-quote-font-family;
+        line-height: @base-blockquote-line-height;
+    }
+
+    // testimonials
+
+    .tm-testimonial-avatar {
+        box-shadow: 0 0 0 4px @global-background,
+                    0 0 0 5px @global-primary-background;
+    }
+
+    .tm-testimonial strong {
+        font-weight: normal;
+        color: @global-primary-color;
+    }
+
+    .quote-icon {
+        font-size: @base-h1-font-size*3;
+        position: absolute;
+        bottom: @global-grid-gutter;
+        color: fade(@global-color, 5%);
+    }
+
+    // hr
+
+    hr { border-style: dashed; }
+    .tooltip hr { display: none; }
+    
+}

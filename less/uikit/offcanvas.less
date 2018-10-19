@@ -1,0 +1,99 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Off-canvas
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@offcanvas-z-index:                             @global-z-index;
+
+@offcanvas-bar-background:                      #271514;
+@offcanvas-bar-width:                           250px;
+
+@offcanvas-panel-margin:                        20px;
+@offcanvas-panel-color:                         @global-contrast-color;
+@offcanvas-panel-title-color:                   @global-contrast-color;
+@offcanvas-panel-link-color:                    @global-link-color;
+@offcanvas-panel-link-hover-color:              @global-link-hover-color;
+
+@offcanvas-background:                          rgba(0, 0, 0, 0.3);
+
+
+// Component
+// ========================================================================
+
+.hook-offcanvas() {}
+
+
+// Sub-object `uk-offcanvas-bar`
+// ========================================================================
+
+.hook-offcanvas-bar() {}
+
+
+// Panel in offcanvas
+// ========================================================================
+
+.hook-offcanvas-panel() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-offcanvas-misc() {
+
+    .uk-nav-offcanvas {
+        ul.uk-nav-sub {
+            background: @global-lighter-shadow;
+            
+            .uk-nav-header {
+                padding: 10px 0;
+            }
+        }
+
+        > li {
+            background: @offcanvas-bar-background;
+            position: relative;
+        }
+    }
+
+    .uk-offcanvas {
+
+        input.uk-search-field {
+            padding: 0 0 0 40px;
+            background: @global-darker-shadow;
+            border-radius: @global-border-radius;
+            border-color: @global-darkest-shadow;
+            font-size: round((@global-font-size*0.85));
+            color: @offcanvas-panel-color;
+            box-shadow: 0 1px 0 @global-lighter-shadow;
+        }
+
+        .uk-nav-parent-icon > .uk-parent > a:after {
+            color: @offcanvas-panel-color;
+        }
+    }
+
+    .uk-offcanvas-bar .uk-parent.uk-open > div {
+        overflow: visible !important;
+    }
+
+    .tm-toggle-offcanvas {
+        padding: 0 !important;
+        width: 70px;
+        z-index: 5;
+        position: absolute;
+        height: 40px;
+        top: 5px;
+        right: 0;
+
+        &:after {
+            opacity: 0;
+        }
+    }
+    
+}

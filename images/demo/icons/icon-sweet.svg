@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 56.689 56.689" enable-background="new 0 0 56.689 56.689" xml:space="preserve">
+<g display="none">
+	<path display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="
+		M52.135,41.783c0.792,0.792,0.747,2.1-0.107,2.824c-10.301,8.736-26.399,8.173-36.793-1.745C5.123,33.214,4.75,16.595,13.492,6.093
+		c0.721-0.864,2.038-0.917,2.835-0.121L52.135,41.783z"/>
+	<path display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="1" d="M53.024,43.438
+		c-10.561,6.491-24.469,4.606-33.714-4.639c-9.244-9.245-10.891-22.917-4.652-33.728"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="33.546" y1="25.227" x2="26.086" y2="32.687"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="37.954" y1="28.281" x2="35.921" y2="41.167"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="30.494" y1="20.817" x2="17.608" y2="22.853"/>
+</g>
+<circle fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" cx="37.178" cy="20.178" r="14.833"/>
+<circle fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" cx="37.178" cy="20.178" r="10.5"/>
+<circle fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" cx="37.178" cy="20.178" r="6.476"/>
+<circle fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" cx="37.178" cy="20.178" r="2.7"/>
+<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M25.83,29.73L8.011,48.511c0,0-1.167,2.25,0.667,3.5
+	c2.242,1.528,4.229-0.917,4.229-0.917l16.594-18.329"/>
+</svg>

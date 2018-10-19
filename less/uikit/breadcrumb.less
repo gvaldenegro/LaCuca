@@ -1,0 +1,42 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Breadcrumb
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@breadcrumb-disabled-color:                     fade(@global-color, 50%);
+@breadcrumb-divider:                            "\f101";
+@breadcrumb-divider-margin:						15px;
+@breadcrumb-divider-color: 						fade(@global-color, 30%);
+@breadcrumb-font-size:                          @global-font-size;
+
+
+// Component
+// ========================================================================
+
+.hook-breadcrumb() {
+	margin: 0;
+	padding: 0 0 @global-block-gutter;
+	text-transform: uppercase;
+	letter-spacing: @global-letter-spacing;
+}
+
+
+// Items
+// ========================================================================
+
+.hook-breadcrumb-divider() {
+	color: @breadcrumb-divider-color;
+	font-family: @global-font-icon;
+}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-breadcrumb-misc() {}

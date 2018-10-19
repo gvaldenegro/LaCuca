@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 56.689 56.689" enable-background="new 0 0 56.689 56.689" xml:space="preserve">
+<g display="none">
+	<path display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M44.584,34.545
+		c0,9.27-7.516,16.784-16.784,16.784c-9.27,0-16.785-7.515-16.785-16.784c0-9.269,10.601-23.851,16.785-29.152
+		C33.983,10.693,44.584,25.276,44.584,34.545z"/>
+</g>
+<g>
+	<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M38.833,24.939c0,1.27-1.03,2.299-2.299,2.299
+		H18.142c-1.27,0-2.299-1.029-2.299-2.299V6.547c0-1.27,1.03-2.299,2.299-2.299h18.393c1.269,0,2.299,1.029,2.299,2.299V24.939z"/>
+	<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M29.637,50.229c0,0.424-0.343,0.766-0.767,0.766
+		h-3.065c-0.423,0-0.766-0.343-0.766-0.766v-9.196c0-0.423,0.343-0.766,0.766-0.766h3.065c0.424,0,0.767,0.343,0.767,0.766V50.229z"
+		/>
+	<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="27.338" y1="27.622" x2="27.338" y2="40.649"/>
+	
+		<line fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="21.207" y1="10.762" x2="21.207" y2="20.725"/>
+	
+		<line fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="27.338" y1="10.762" x2="27.338" y2="20.725"/>
+	
+		<line fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="33.469" y1="10.762" x2="33.469" y2="20.725"/>
+</g>
+</svg>

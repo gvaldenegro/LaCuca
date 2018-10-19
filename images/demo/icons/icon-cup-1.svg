@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 56.689 56.689" enable-background="new 0 0 56.689 56.689" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M47.586,20.033c0,0.488-0.396,0.884-0.882,0.884
+		H9.601c-0.487,0-0.883-0.396-0.883-0.884v-7.067c0-0.488,0.396-0.884,0.883-0.884h37.103c0.487,0,0.882,0.396,0.882,0.884V20.033z"
+		/>
+	<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M39.787,51.835H16.518
+		c-0.425,0-0.79-0.304-0.868-0.723l-4.969-29.151c-0.102-0.542,0.315-1.044,0.868-1.044h33.207c0.554,0,0.971,0.501,0.869,1.044
+		l-4.97,29.152C40.577,51.531,40.212,51.835,39.787,51.835z"/>
+	<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="44.663" y1="29.748" x2="11.642" y2="29.748"/>
+	<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="41.51" y1="46.532" x2="14.796" y2="46.532"/>
+	<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M45.82,12.079H10.484l3.067-6.901
+		c0.284-0.638,0.917-1.048,1.615-1.048h25.972c0.697,0,1.331,0.41,1.614,1.048L45.82,12.079z"/>
+</g>
+</svg>

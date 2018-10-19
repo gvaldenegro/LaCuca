@@ -1,0 +1,141 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Animation
+//
+// ========================================================================
+
+.uk-animation-fade {
+    -webkit-animation-duration: 0.15s;
+            animation-duration: 0.15s;
+}
+
+//
+// Fade with slide
+//
+
+// Top
+
+@-webkit-keyframes uk-fade-top {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-10%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes uk-fade-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Bottom
+
+@-webkit-keyframes uk-fade-bottom {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(10%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes uk-fade-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Left 
+
+@-webkit-keyframes uk-fade-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-10%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes uk-fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+// Right 
+
+@-webkit-keyframes uk-fade-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(10%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes uk-fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+// floating effect
+
+@-webkit-keyframes tm-floating {
+    0% { 
+        -webkit-transform: translateY(0%); 
+    }
+
+    50% { 
+        -webkit-transform: translateY(150%);
+    }
+
+    100% { 
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes tm-floating {
+    0% { 
+        transform: translateY(0%);
+    }
+
+    50% { 
+        transform: translateY(150%);
+    }
+
+    100% { 
+        transform: translateY(0%);
+    }
+}

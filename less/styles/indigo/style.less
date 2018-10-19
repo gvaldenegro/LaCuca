@@ -1,0 +1,122 @@
+// Copyright (C) arrowthemes, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Rubik';
+@import 'https://fonts.googleapis.com/css?family=Playball';
+
+// Global variables
+// ========================================================================
+
+@global-style: 'indigo';
+
+@global-color: #575a73;
+@global-light-color: #ffffff;
+@global-muted-color: #a8aeb6;
+@global-dark-color: #101010;
+@global-highlight-color: #464b6e;
+@global-primary-color: #464b6e;
+@global-primary-link-color: #464b6e;
+@global-secondary-color: #707070;
+@global-link-color: #7a81b9;
+@global-sub-title-color: #464b6e;
+@global-sub-title-text-transform: none;
+@global-sub-title-letter-spacing: 0;
+@global-sub-title-font-size: 22px;
+@global-heading-color: #464b6e;
+@global-background: #ffffff;
+
+@global-font-family: 'Rubik';
+@global-heading-font-family: 'Playfair Display';
+@global-sub-title-font-family: 'Playball';
+@global-font-size: 16px;
+@global-line-height: 34px;
+@global-font-weight: 400;
+@global-letter-spacing: 2px;
+@global-heading-letter-space: -1px;
+@global-heading-font-weight: 300;
+
+@global-default-background: #464b6e;
+@global-primary-background: #464b6e;
+@global-secondary-background: #d86a6c;
+@global-success-background: #a6c118;
+@global-warning-background: #ffc8aa;
+@global-danger-background: #ec4e00;
+
+@global-overlay-primary-background: fade(@global-primary-background, 30%);
+@global-overlay-secondary-background: fade(@global-primary-background, 25%);
+
+// Variables
+// ========================================================================
+
+//
+// base
+//
+
+@base-code-color: #464b6e;
+@base-pre-background: @global-background;
+@base-pre-color: @global-secondary-color;
+@base-quote-font-family: 'Playball';
+@base-pre-color: #73768b;
+
+// 
+// Button
+// 
+
+@button-font-family: @global-font-family;
+
+//
+// Nav
+//
+
+@navbar-nav-font-weight: 400;
+
+//
+// panel
+//
+
+@panel-title-text-transform: none;
+@panel-box-primary-color: @global-contrast-color;
+@panel-box-primary-title-color: @global-contrast-color;
+@panel-box-primary-autocomplete-color: #464b6e;
+
+//
+// Offcanvas
+//
+
+@offcanvas-bar-background: #31354d;
+
+// Theme global variables
+// ==========================================================================
+
+@theme-canvas-background: #101010;
+@theme-toolbar-background: #464b6e;
+@theme-toolbar-color: #ffffff;
+@theme-toolbar-link-color: #ffc8aa;
+@theme-toolbar-hover-color: #d86a6c;
+
+@theme-menubar-color: #ffffff;
+@theme-menubar-background: fade(@theme-toolbar-background, 30%);
+@theme-menubar-sticky-background: fade(@theme-toolbar-background, 80%);
+@theme-menubar-sticky-color: #ffffff;
+@theme-menuitem-color: #ffffff;
+@theme-menubar-active-item-background: fade(#ffc8aa, 30%);
+@theme-menubar-active-border: #ffc8aa;
+@theme-menubar-active-item-color: #ffffff;
+@theme-menubar-dropdown-background: #464b6e;
+@theme-menuitem-hover-background: #d86a6c;
+@theme-menuitem-hover-color: #ffffff;
+@theme-navbar-small-background: #d86a6c;
+
+@theme-logo-background: rgba(70, 75, 110, 0.9);
+@theme-slider-nav-color: #ffffff;
+@theme-slider-nav-background: #464b6e;
+@theme-slider-dotnav-active-color: #ffc8aa;
+@theme-slider-overlay-background: rgba(70, 75, 110, 0.3);
+@theme-slideset-active-color: #464b6e;
+
+@theme-foodmenu-color: @global-color;
+
+// Block Digit
+.tm-block-digit {
+	line-height: 40px;
+}

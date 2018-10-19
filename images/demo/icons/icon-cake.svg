@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 56.689 56.689" enable-background="new 0 0 56.689 56.689" xml:space="preserve">
+<g display="none">
+	<path display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="
+		M52.135,41.783c0.792,0.792,0.747,2.1-0.107,2.824c-10.301,8.736-26.399,8.173-36.793-1.745C5.123,33.214,4.75,16.595,13.492,6.093
+		c0.721-0.864,2.038-0.917,2.835-0.121L52.135,41.783z"/>
+	<path display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="1" d="M53.024,43.438
+		c-10.561,6.491-24.469,4.606-33.714-4.639c-9.244-9.245-10.891-22.917-4.652-33.728"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="33.546" y1="25.227" x2="26.086" y2="32.687"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="37.954" y1="28.281" x2="35.921" y2="41.167"/>
+	
+		<line display="inline" fill="none" stroke="#533834" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="30.494" y1="20.817" x2="17.608" y2="22.853"/>
+</g>
+<polyline fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" points="7.657,29.477 7.657,49.863 48.73,49.863 
+	48.73,29.477 "/>
+<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="7.657" y1="36.458" x2="48.73" y2="36.458"/>
+<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="7.657" y1="41.417" x2="48.73" y2="41.417"/>
+<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M7.657,19.478H48.73c0,0,3.179,0.827,4.006,3.815
+	c0.827,2.988-1.399,5.595-3.433,6.04c-2.035,0.445-3.942,0.16-5.786-2.018s-2.607-3.005-4.069-0.906
+	c-1.462,2.098-1.971,3.155-4.832,3.103c-2.861-0.052-3.688-1.959-4.705-3.231c-1.017-1.272-2.035-1.717-3.179-0.254
+	c-1.144,1.462-1.907,3.413-4.641,3.487s-3.751-1.325-5.277-3.296s-2.67-0.476-3.815,1.097c-1.144,1.573-2.225,2.576-4.959,2.202
+	s-4.323-2.727-4.26-5.397S6.576,19.795,7.657,19.478z"/>
+<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="28.193" y1="11.357" x2="28.193" y2="19.478"/>
+<circle fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" cx="28.095" cy="8.261" r="3.417"/>
+</svg>

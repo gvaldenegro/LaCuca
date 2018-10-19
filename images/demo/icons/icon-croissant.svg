@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="56.69px" height="56.69px" viewBox="0 0 56.69 56.69" enable-background="new 0 0 56.69 56.69" xml:space="preserve">
+<g id="hamburger">
+</g>
+<g id="hamburger_1_">
+</g>
+<g id="hamburger_2_">
+</g>
+<g id="hamburger_3_">
+</g>
+<g id="hamburger_4_">
+</g>
+<polygon fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" points="8.877,34.153 4.613,22.642 25.012,13.969 
+	27.944,19.771 35.945,27.1 42.419,31.192 35.762,53.485 23.115,47.621 21.138,50.872 6.567,35.895 "/>
+<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="6.567" y1="35.895" x2="27.944" y2="19.771"/>
+<line fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" x1="20.737" y1="51.531" x2="35.721" y2="26.895"/>
+<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M7.173,21.553c0,0-0.973-5.935,4.646-12.776
+	s7.665-5.886,9.156-5.583c1.017,0.207,2.57,1.308,1.288,4.789c-1.283,3.481-0.233,7.253-0.233,7.253"/>
+<path fill="none" stroke="#533834" stroke-width="2" stroke-miterlimit="10" d="M41.402,34.599c0,0,2.34,1.171,5.516,0.301
+	c3.176-0.87,4.092-1.037,5.579,0.996c1.279,1.748,0.733,4.703-0.977,6.779c-1.71,2.077-6.23,5.68-9.711,6.779
+	c-3.481,1.099-5.168,1.088-5.168,1.088"/>
+</svg>
