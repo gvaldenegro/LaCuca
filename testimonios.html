@@ -157,6 +157,155 @@
   </div>
 
   <!-- bottom-e -->
+  <div id="tm-bottom-a" class="tm-block-bottom-a uk-block uk-block-secondary">
+    <div class="uk-container uk-container-center">
+      <section class="tm-bottom-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+        <div class="uk-width-1-1">
+          <div class="uk-panel">
+
+            <div class="uk-grid" data-uk-grid-margin>
+
+              <div class="uk-width-medium-1-2">
+                <h2 class="uk-margin-small-top">Inscríbete y recibe nuestro menú y ofertas en tu correo para disfrutar junto a La Cuca</h2>
+              </div>
+
+              <div class="uk-width-medium-1-2">
+
+              <!-- subscription form -->
+                <form id="subscribe_form" class="uk-form">
+
+                  <div id="alert-msg-subscribe" class="alert-msg"></div>
+
+                  <div class="uk-grid" data-uk-grid-margin>
+
+                    <div class="uk-width-medium-2-5">
+                      <div>
+                        <input type="text" placeholder="Escribe tu nombre" name="subscribe-name" class="uk-width-1-1" required="required">
+                      </div>
+                    </div>
+
+                    <div class="uk-width-medium-2-5">
+                      <div>
+                        <input type="email" placeholder="Correo" name="subscribe-email" class="uk-width-1-1" required="required">
+                      </div>
+                    </div>
+
+                    <div class="uk-width-medium-1-5">
+                      <div class="form-group uk-margin-remove">
+                        <button id="subscribe_button" type="submit" class="uk-button uk-button-primary uk-button-large">Enviar</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- bottom-d -->
+  <div id="tm-bottom-d" class="tm-block-bottom-d uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" data-uk-parallax="{bg: '-200'}" style="background-image: url('images/background/bg-image-11.jpg');">
+    <div class="uk-container uk-container-center">
+      <section class="tm-bottom-d uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+
+        <div class="uk-width-1-1 uk-width-medium-1-3">
+          <div class="uk-panel uk-contrast">
+
+            <h2 class="uk-module-title-alt uk-margin-large-top">Parrilladas La Cuca</h2>
+
+            <p>Los años de tradición, productos de excelencia y buena atención nos avalan... Somos Parrilladas La Cuca tu restaurante donde disfrutas de momentos especiales junto a tu familia y amigos!</p>
+            <br>
+
+            <div class="tm-socialbuttons">
+              <a href="https://www.facebook.com/arrowthemes" class="uk-icon-button uk-icon-facebook" target="_blank"></a>
+              <a href="https://twitter.com/arrowthemes" class="uk-icon-button uk-icon-instagram" target="_blank"></a>
+            </div>
+
+            <br>
+
+            <p>Parrilladas La Cuca
+              <br> Camino Internacional #3500
+              <br> Viña del Mar
+              <br> Teléfono: +56 32 287 4340
+
+          </div>
+        </div>
+
+        <div class="uk-width-1-1 uk-width-medium-1-3">
+          <div class="uk-panel uk-contrast">
+
+            <h2 class="uk-module-title-alt uk-margin-large-top">Horario de Atención</h2>
+
+            <dl class="uk-description-list-horizontal">
+              <dt>Lunes a Jueves</dt>
+              <dd>10:00 am to 18:00 pm</dd>
+            </dl>
+            <dl class="uk-description-list-horizontal">
+              <dt>Viernes</dt>
+              <dd>10:00 am to 03:00 pm</dd>
+            </dl>
+            <dl class="uk-description-list-horizontal">
+              <dt>Domingo</dt>
+              <dd>10:00 am to 18:00 pm</dd>
+            </dl>
+
+            <br>
+
+
+          </div>
+        </div>
+
+        <div class="uk-width-1-1 uk-width-medium-1-3">
+          <div class="uk-panel uk-panel-box uk-panel-box-primary uk-text-center">
+
+            <!-- reservation form -->
+            <h3 class="uk-module-title-alt">Reservas Online</h3>
+            <form id="booking_form" class="uk-form uk-form-horizontal uk-margin-top">
+
+              <div id="alert-msg-booking" class="alert-msg"></div>
+
+              <div class="uk-grid uk-grid-width-medium-1-1 uk-grid-width-1-1" data-uk-grid-margin>
+
+                <div class="uk-form-icon">
+                  <i class="uk-icon-info-circle"></i>
+                  <input type="text" placeholder="Nombre" name="book-name" class="uk-width-1-1" required="required">
+                </div>
+
+                <div class="uk-form-icon">
+                  <i class="uk-icon-users"></i>
+                  <input type="text" placeholder="Cantidad de personas" name="book-guests" class="uk-width-1-1" required="required">
+                </div>
+
+                <div class="uk-form-icon">
+                  <i class="uk-icon-calendar"></i>
+                  <input type="text" placeholder="Fecha" name="book-date" class="uk-width-1-1" data-uk-datepicker="{format:'DD/MM/YYYY', minDate: 0}" required="required">
+                </div>
+
+                <div class="uk-display-block uk-form-icon" data-uk-timepicker="{format:'12h', start:9, end: 22}">
+                  <i class="uk-icon-clock-o"></i>
+                  <input type="text" placeholder="Hora" name="book-time" class="uk-width-1-1" required="required">
+                </div>
+
+                <div class="uk-form-icon">
+                  <i class="uk-icon-phone"></i>
+                  <input type="text" placeholder="Teléfono" name="book-phone" class="uk-width-1-1" required="required">
+                </div>
+
+                <div class="form-group uk-margin-remove">
+                  <button id="booking_submit" type="submit" class="uk-button uk-button-default uk-button-large uk-margin-large-top">Realizar Reserva</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- bottom-e -->
   <div id="tm-bottom-e" class="tm-block-bottom-e uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" data-uk-parallax="{bg: '-200'}" style="background-image: url('images/background/bg-1.jpg');">
     <div class="uk-container uk-container-center">
       <section class="tm-bottom-e uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
@@ -170,7 +319,6 @@
       </section>
     </div>
   </div>
-
   <!-- offcanvas menu -->
   <div id="offcanvas" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
