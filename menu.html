@@ -2209,16 +2209,28 @@
     </div>
   </div>
   <!-- offcanvas menu -->
-  <div class="tm-nav uk-hidden-small">
-    <ul class="uk-navbar-nav uk-hidden-small">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="nosotros.html">Nosotros</a></li>
-      <li class="uk-active"><a href="menu.html"><i class="uk-icon-cutlery"></i>Menu</a></li>
-      <li><a href="galeria.html">Galeria</a></li>
-      <li><a href="testimonios.html">Recomendaciones</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
+  <div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+      <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
+
+        <!-- Home menu -->
+        <li class="uk-parent"><a href="index.html">Inicio</a></li>
+
+        <!-- Theme menu -->
+        <li class="uk-parent"><a href="nosotros.html">Nosotros</a></li>
+
+        <!-- Menu menu -->
+        <li class="uk-parent uk-active"><a href="menu.html"><i class="uk-icon-cutlery"></i> Menu</a></li>
+
+        <!-- Events menu -->
+        <li><a href="galeria.html">Galería</a></li>
+
+        <!-- Elements menu -->
+        <li class="uk-parent"><a href="testimonios.html">Recomendaciones</a></li>
+
+    </div>
   </div>
+
   <!-- one page scroller -->
   <div class="tm-navigation-bar uk-hidden-small uk-hidden-medium">
     <ul class="uk-dotnav uk-flex-column" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
