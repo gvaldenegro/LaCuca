@@ -15,22 +15,22 @@
  * The script will try to use PHP's mail() function,
  * so if it is not properly configured it will fail silently (no error).
  */
-$mailTo     = 'mail@example.com';
+$mailTo     = 'reservascucavina@gmail.com';
 
 /**
  * Set the message that will be shown on success
  */
-$successMsg = 'Thank you, mail sent successfully!';
+$successMsg = 'Muchas gracias, hemos recibido su mensaje!';
 
 /**
  * Set the message that will be shown if not all fields are filled
  */
-$fillMsg    = 'Please fill all fields!';
+$fillMsg    = 'Por favor complete todos los campos!';
 
 /**
  * Set the message that will be shown on error
  */
-$errorMsg   = 'Hmmm... there seems to be a problem, sorry!';
+$errorMsg   = 'Hmmm ... parece que hay un problema!, por favor intentelo nuevamente';
 
 /**
  * DO NOT EDIT ANYTHING BELOW THIS LINE, UNLESS YOU'RE SURE WHAT YOU'RE DOING
@@ -54,10 +54,10 @@ if(
 
     ?>
     <?php
-	$msg = "Name: ".$_POST['contact-name']."\r\n";
+	$msg = "Nombre: ".$_POST['contact-name']."\r\n";
 	$msg .= "Email: ".$_POST['contact-email']."\r\n";
-	$msg .= "Subject: ".$_POST['contact-subject']."\r\n";
-	$msg .= "Message: ".$_POST['contact-message']."\r\n";
+	$msg .= "Asunto: ".$_POST['contact-subject']."\r\n";
+	$msg .= "Mensaje: ".$_POST['contact-message']."\r\n";
 	
     $success = @mail($mailTo, $_POST['contact-subject'], $msg, 'From: ' . $_POST['contact-name'] . '<' . $_POST['contact-email'] . '>');
 	

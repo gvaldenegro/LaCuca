@@ -15,27 +15,27 @@
  * The script will try to use PHP's mail() function,
  * so if it is not properly configured it will fail silently (no error).
  */
-$mailTo     = 'mail@example.com';
+$mailTo     = 'reservascucavina@gmail.com';
 
 /**
  * Set the subject
  */
-$subjectMsg = 'RE: Reservation details for';
+$subjectMsg = 'RE: Detalles de reserva para';
 
 /**
  * Set the message that will be shown on success
  */
-$successMsg = 'Thank you, mail sent successfully!';
+$successMsg = 'Muchas gracias, hemos recibido su mensaje!';
 
 /**
  * Set the message that will be shown if not all fields are filled
  */
-$fillMsg    = 'Please fill all fields!';
+$fillMsg    = 'Por favor complete todos los campos!';
 
 /**
  * Set the message that will be shown on error
  */
-$errorMsg   = 'Hmmm... there seems to be a problem, sorry!';
+$errorMsg   = 'Hmmm ... parece que hay un problema!, por favor intentelo nuevamente';
 
 /**
  * DO NOT EDIT ANYTHING BELOW THIS LINE, UNLESS YOU'RE SURE WHAT YOU'RE DOING
@@ -61,11 +61,11 @@ if(
 
     ?>
     <?php
-	$msg = "Name: ".$_POST['book-name']."\r\n";
-	$msg .= "No. of Guests: ".$_POST['book-guests']."\r\n";
-	$msg .= "Date: ".$_POST['book-date']."\r\n";
-	$msg .= "Time: ".$_POST['book-time']."\r\n";
-	$msg .= "Phone number: ".$_POST['book-phone']."\r\n";
+	$msg = "Nombre: ".$_POST['book-name']."\r\n";
+	$msg .= "Personas: ".$_POST['book-guests']."\r\n";
+	$msg .= "Fecha: ".$_POST['book-date']."\r\n";
+	$msg .= "Hora: ".$_POST['book-time']."\r\n";
+	$msg .= "Teléfono: ".$_POST['book-phone']."\r\n";
 	
     $success = @mail($mailTo, $subjectMsg . ' ' . $_POST['book-name'] , $msg, 'From: ' . $_POST['book-name'] . '<' . $mailTo . '>');
 	

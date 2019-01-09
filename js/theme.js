@@ -135,4 +135,9 @@ jQuery(function($) {
     // preloader
     $(window).on("load",function(){preloader.removeClass('loading').fadeOut(500,function(){})}),$(window).on("beforeunload",function(){preloader.addClass('loading').fadeIn(300,function(){})});
 
+$(function() {
+    var modal = UIkit.modal("#myModal");
+    // modal.show(); 
+});
+
 });

@@ -4,3 +4,6 @@
    Use this file to add custom CSS easily
    ========================================================================== */
 
+.uk-modal-dialog {
+	padding: 10px;
+}

@@ -41,7 +41,7 @@
     <!-- toolbar left -->
     <div class="uk-float-left">
       <div class=" uk-hidden-small">
-        <p>Horario de atención 10:00 am a 03:00 am </p>
+        <p>Horario de atención 10:00 a 03:00</p>
       </div>
     </div>
 
@@ -241,15 +241,19 @@
 
             <dl class="uk-description-list-horizontal">
               <dt>Lunes a Jueves</dt>
-              <dd>10:00 am to 18:00 pm</dd>
+              <dd>10:00 a 18:00</dd>
             </dl>
             <dl class="uk-description-list-horizontal">
               <dt>Viernes</dt>
-              <dd>10:00 am to 03:00 pm</dd>
+              <dd>10:00 a 03:00</dd>
+            </dl>
+            <dl class="uk-description-list-horizontal">
+              <dt>Sábado</dt>
+              <dd>11:00 a 04:00</dd>
             </dl>
             <dl class="uk-description-list-horizontal">
               <dt>Domingo</dt>
-              <dd>10:00 am to 18:00 pm</dd>
+              <dd>10:00 a 18:00</dd>
             </dl>
 
             <br>
@@ -284,7 +288,7 @@
                   <input type="text" placeholder="Fecha" name="book-date" class="uk-width-1-1" data-uk-datepicker="{format:'DD/MM/YYYY', minDate: 0}" required="required">
                 </div>
 
-                <div class="uk-display-block uk-form-icon" data-uk-timepicker="{format:'12h', start:9, end: 22}">
+                <div class="uk-display-block uk-form-icon" data-uk-timepicker="{format:'24h', start:10, end: 24}">
                   <i class="uk-icon-clock-o"></i>
                   <input type="text" placeholder="Hora" name="book-time" class="uk-width-1-1" required="required">
                 </div>
